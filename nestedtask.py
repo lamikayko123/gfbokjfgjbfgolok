@@ -15,7 +15,7 @@ for list in names:
 
 
 if Alice_found:
-    new_name = input("Alice found. Enter a new to add: ")
+    new_name = input("Alice not found. Enter a new to add: ")
     names[0].append(new_name)
 
     print(names)
